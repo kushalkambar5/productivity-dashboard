@@ -15,8 +15,8 @@ export default function SignUp(){
         }else{
 
             localStorage.setItem(fd.get("email"), JSON.stringify({
-                password: fd.get("password"),
-                Note:[
+                "password": fd.get("password"),
+                "Notes":[
                     //{Heading:      , Content:     }    this will be used on the time of creating or editing notes
                 ] 
             }));
